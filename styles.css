@@ -1,4 +1,4 @@
-/* Select all CSS Start*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,15 +7,13 @@
   overflow-x: hidden;
 }
 
-/* all link CSS */
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Select all CSS End*/
 
-/* create global variable with :root selector Start*/
 :root {
   --header-bg-color: rgb(255, 255, 255);
   --footer-bg-color: rgb(255, 255, 255);
@@ -38,9 +36,7 @@ a {
   --light-blue: #0463ac;
   --dark-blue: #070062;
 }
-/* create global variable with :root selector End*/
 
-/* Header CSS Start*/
 
 .header {
   display: flex;
@@ -69,7 +65,7 @@ a {
   color: var(--dark-green);
 }
 
-/* nav items CSS start*/
+
 .nav-items > ul {
   list-style-type: none;
   display: flex;
@@ -121,7 +117,6 @@ a {
 }
 
 
-/* Body CSS Start*/
 .body-container {
   min-height: 87vh;
 }
@@ -247,9 +242,6 @@ a {
   padding: 2px 5px 3px 0;
 }
 
-/* Restaurant cards CSS End*/
-
-/* Restaurant Menu CSS Start */
 .restaurant-menu {
   margin-top: 80px;
   min-height: 80vh;
@@ -411,9 +403,7 @@ a {
   border-radius: 5px;
 }
 
-/* Restaurant Menu End Start */
 
-/*Shimmer Card CSS Start*/
 .shimmer-container {
   display: flex;
   flex-wrap: wrap;
@@ -448,9 +438,7 @@ a {
   height: 144px;
   width: 230px;
 }
-/*Shimmer Card CSS End*/
 
-/* Shimmer Menu Card CSS Start */
 
 .restaurant-summary .shimmer-img {
   height: 144px;
@@ -507,7 +495,6 @@ a {
 }
 /* Shimmer Menu Card CSS End */
 
-/*Animation to Shimmer Component Card and Menu card Start*/
 .stroke {
   height: 15px;
   background: #777;
@@ -532,9 +519,7 @@ a {
     background-position: 1000px 0;
   }
 }
-/*Animation to Shimmer Component Card and Menu card End*/
 
-/* User Offline CSS Start */
 .user-offline-container {
   text-align: center;
   padding: 20px;
@@ -557,11 +542,7 @@ a {
   margin: 20px 0px;
 }
 
-/* User Offline CSS End */
 
-/* Body CSS End*/
-
-/* Error page CSS Start */
 .error-page {
   text-align: center;
   background-color: var(--body-bg-color);
@@ -589,9 +570,6 @@ a {
   background-color: var(--dark-green);
 }
 
-/* Error page CSS End */
-
-/* About us page CSS Start */
 .about-container-main {
   min-height: 87vh;
 }
